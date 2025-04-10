@@ -71,7 +71,7 @@ export default function EditRecipes({ navigation, route }) {
     <TextInput placeholder='Title' style={{ borderWidth: 1, borderColor: '#cccccc', borderRadius: 5, margin: 5, padding: 15 }} onChangeText={(value) => setTitle(value)} value={title} />
 
     <Text style={{ fontSize: 16, color: '#000', margin: 15, }}>Content</Text>
-    <TextInput placeholder='Content' style={{ borderWidth: 1, borderColor: '#cccccc', borderRadius: 5, margin: 5, padding: 15 }} onChangeText={(value) => setContent(value)} value={title} multiline={true} />
+    <TextInput placeholder='Content' style={{ borderWidth: 1, borderColor: '#cccccc', borderRadius: 5, margin: 5, padding: 15 }} onChangeText={(value) => setContent(value)} value={content} multiline={true} />
 
     {imageName && <Image source={{ uri: 'https://firebasestorage.googleapis.com/v0/b/alternativemedicine-6ea0c.appspot.com/o/images%2F'+imageName+"?alt=media" }} style={{width: '100%', height: 260, resizeMode: 'cover', margin: 5}} />}
     <TouchableOpacity style={{ borderWidth: 1, borderColor: '#cccccc', borderRadius: 5, margin: 5, padding: 15 }} onPress={() => uploadImage('photo')}>

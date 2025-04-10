@@ -8,7 +8,6 @@ export default function RecipesScreen({navigation}) {
   useEffect(() => {
     firestore()
       .collection('recipes')
-      .orderBy('creation_date', 'desc')
       .get()
       .then(resopnse => {
         const sections_list = [];
