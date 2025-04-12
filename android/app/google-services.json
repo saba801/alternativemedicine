@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "879072976051",
+    "project_id": "alternativemedicine-6ea0c",
+    "storage_bucket": "alternativemedicine-6ea0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879072976051:android:90b8b91a6e872b10aa24c6",
+        "android_client_info": {
+          "package_name": "com.alternativemedicine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX3D3J65sf9mGXZOylUGwtroIfTvHjhuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
